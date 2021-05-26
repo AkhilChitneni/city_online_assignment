@@ -1,0 +1,58 @@
+.genres{
+   display: flex;
+   flex-direction: row;
+
+}
+
+body{
+    margin: 0px
+}  
+
+.screen{
+    background: #333;
+   
+}
+
+
+.genre{
+    padding: 10px;
+    margin: 10px 35px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.genre :hover{
+    background: #fff;
+    color: black;
+
+}
+
+.genre-text{
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+
+.movies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+ }
+
+.card{
+    display: flex;
+    margin: 10px;
+    border: 1px solid #fff;
+    min-height: 300px;
+    width: 395px;
+    background: #fff;
+    color: forestgreen;
+    font-size: 1.5rem;
+}
+.title {
+    margin:auto;
+
+}
+

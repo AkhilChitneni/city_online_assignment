@@ -1,0 +1,18 @@
+.section{
+    margin: 20px 40px;
+    padding: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.App{
+    max-width: 700px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: auto
+}
+
+.label{
+    margin: 0px 50px
+}
